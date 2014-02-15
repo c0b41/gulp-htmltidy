@@ -4,7 +4,7 @@
 
 > Using HTML Tidy, developers can programatically clean up and fix poorly-written HTML pages. Another use is to convert HTML to XHTML or XML. These files can then be easily processed using the tools in the traditional XML chain, such as XSL transforms.
 
-Inspired by the grunt plugin [grunt-htmltidy](https://github.com/cobaimelan/gulp-htmltidy). Uses the [htmltidy](https://github.com/vavere/htmltidy) library.
+Uses the [htmltidy](https://github.com/vavere/htmltidy) library.
 
 ## How It Works
 `/path/to/file.html`:
