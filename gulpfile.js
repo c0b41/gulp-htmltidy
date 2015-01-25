@@ -1,11 +1,11 @@
 var gulp = require('gulp'),
-    htmltidy = require('gulp-htmltidy');
+    htmltidy = require('./index.js');
 
 gulp.task('default', function() {
-  return gulp.src('./*.html')
+  return gulp.src('./test/fixtures/test.html')
         .pipe(htmltidy({doctype: 'html5',
 					   hideComments: true,
 					   indent: false,
 					   clean:true}))
-        .pipe(gulp.dest('build/'));;
+        .pipe(gulp.dest('test/expected/'));;
 });

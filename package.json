@@ -1,14 +1,11 @@
 {
   "name": "gulp-htmltidy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node Wrapper for HTML Tidy",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/cobaimelan/gulp-htmltidy"
+    "url": "git://github.com/ayhankuru/gulp-htmltidy"
   },
   "keywords": [
     "gulpplugin",
@@ -16,19 +13,24 @@
     "css",
     "html"
   ],
+  "scripts": {
+    "test": "mocha test/main.js --reporter spec --timeout 15000"
+  },
   "author": "Ayhan Kuru",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cobaimelan/gulp-htmltidy/issues"
+    "url": "https://github.com/ayhankuru/gulp-htmltidy/issues"
   },
-  "homepage": "https://github.com/cobaimelan/gulp-htmltidy",
+  "homepage": "https://github.com/ayhankuru/gulp-htmltidy",
   "dependencies": {
     "through2": "~0.6.3",
-    "gulp-util": "~3.0.1",
+    "gulp-util": "~3.0.2",
     "htmltidy": "0.0.6"
   },
   "devDependencies": {
-    "mocha": "*",
-    "gulp": "~3.5.1"
+    "mocha": "~2.1.0",
+    "gulp": "~3.8.10",
+    "expect.js": "~0.3.1",
+    "gulp-util": "~3.0.2"
   }
 }
