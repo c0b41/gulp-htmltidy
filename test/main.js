@@ -24,4 +24,5 @@ it('Htmltidy Test', function (cb) {
 	}));
 
 	stream.end();
+	
 });
