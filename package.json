@@ -14,7 +14,7 @@
     "html"
   ],
   "scripts": {
-     "test": "iojs node_modules/mocha/bin/mocha test/main.js --reporter spec --timeout 15000"
+     "test": "iojs node_modules/mocha/bin/mocha ./test/main.js --reporter spec --timeout 15000"
   },
   "author": "Ayhan Kuru",
   "license": "MIT",

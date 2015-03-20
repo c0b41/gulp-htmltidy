@@ -11,7 +11,7 @@ it('Htmltidy Test', function (cb) {
 
 	stream.on('data', function (file) { 
 		expect(file.contents.toString()).to.eql(fs.readFileSync(__dirname + '/expected/test.html').toString());
-		expect(file.relative).to.eql('test.html');
+		 
 	});
 
 	stream.on('end', cb);
