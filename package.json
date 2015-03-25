@@ -25,7 +25,8 @@
   "dependencies": {
     "through2": "~0.6.3",
     "gulp-util": "~3.0.2",
-    "htmltidy": "0.0.6"
+    "htmltidy": "git://github.com/ayhankuru/htmltidy2.git#e7620c9"
+    
   },
   "devDependencies": {
     "mocha": "~2.1.0",
