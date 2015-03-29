@@ -3,9 +3,8 @@
 
 
 
-[![Build Status](http://img.shields.io/travis/ayhankuru/gulp-htmltidy.svg?style=flat-square)](https://travis-ci.org/ayhankuru/gulp-htmltidy)
+[![Travis Build Status](http://img.shields.io/travis/ayhankuru/gulp-htmltidy.svg?style=flat-square)](https://travis-ci.org/ayhankuru/gulp-htmltidy) [![Circle Build Status](https://img.shields.io/circleci/project/ayhankuru/gulp-htmltidy.svg?style=flat-square)](https://circleci.com/gh/ayhankuru/gulp-htmltidy) [![Build Status](https://img.shields.io/david/ayhankuru/gulp-htmltidy.svg?style=flat-square)](https://david-dm.org/ayhankuru/gulp-htmltidy) [![io.js supported](https://img.shields.io/badge/io.js-supported-green.svg?style=flat-square)](https://iojs.org)
 
-[![Build Status](https://img.shields.io/david/ayhankuru/gulp-htmltidy.svg?style=flat-square)](https://david-dm.org/ayhankuru/gulp-htmltidy)
 
 > HTML Tidy is an open source program for checking and generating clean XHTML/HTML. It cleans up coding errors in HTML files and fixes bad formatting. It can output files in the HTML, XHTML or XML file format.
 
