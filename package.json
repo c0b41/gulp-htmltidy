@@ -24,7 +24,7 @@
   "homepage": "https://github.com/ayhankuru/gulp-htmltidy",
   "dependencies": {
     "gulp-util": "^3.0.4",
-    "htmltidy2": "~0.1.1",
+    "htmltidy2": "^0.1.2",
     "through2": "^0.6.3"
   },
   "devDependencies": {
