@@ -2,7 +2,7 @@
 
 var gutil = require('gulp-util');
 var through = require('through2');
-var tidy = require('htmltidy').tidy;
+var tidy = require('htmltidy2').tidy;
 
 module.exports = function(opt){
     return through.obj(function (file, enc, cb) {
