@@ -1,6 +1,6 @@
 'use strict';
 
-var gutil = require('gulp-util');
+var PluginError = require('plugin-error');
 var through = require('through2');
 var tidy = require('htmltidy2').tidy;
 
@@ -16,13 +16,13 @@ module.exports = function(opt){
         }
 
         if (file.isStream()) {
-            this.emit('error', new gutil.PluginError('gulp-htmltidy', 'Streaming not supported'));
+            this.emit('error', new PluginError('gulp-htmltidy', 'Streaming not supported'));
             return cb();
         }
 
         tidy(file.contents, opt, function (err, html) {
             if (err) {
-                this.emit('error', new gutil.PluginError('gulp-htmltidy', err));
+                this.emit('error', new PluginError('gulp-htmltidy', err));
             }
 
             file.contents = new Buffer(String(html));

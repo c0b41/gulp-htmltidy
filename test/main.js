@@ -1,6 +1,6 @@
 var expect = require('expect.js');
 var fs = require('fs');
-var gutil = require('gulp-util');
+var Vinyl = require('vinyl');
 var htmltidy = require('../index.js');
 
 it('Htmltidy Test', function (cb) {
@@ -16,7 +16,7 @@ it('Htmltidy Test', function (cb) {
 
 	stream.on('end', cb);
 
-	stream.write(new gutil.File({
+	stream.write(new Vinyl({
 		cwd: __dirname,
 		base: __dirname + '/fixtures',
 		path: __dirname + '/fixtures/test.html',
