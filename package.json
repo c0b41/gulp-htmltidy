@@ -1,11 +1,11 @@
 {
   "name": "gulp-htmltidy",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Node Wrapper for HTML Tidy",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ayhankuru/gulp-htmltidy"
+    "url": "git://github.com/c0b41/gulp-htmltidy"
   },
   "keywords": [
     "gulpplugin",
@@ -19,9 +19,9 @@
   "author": "Ayhan Kuru",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ayhankuru/gulp-htmltidy/issues"
+    "url": "https://github.com/c0b41/gulp-htmltidy/issues"
   },
-  "homepage": "https://github.com/ayhankuru/gulp-htmltidy",
+  "homepage": "https://github.com/c0b41/gulp-htmltidy",
   "dependencies": {
     "htmltidy2": "*",
     "plugin-error": "^1.0.1",
