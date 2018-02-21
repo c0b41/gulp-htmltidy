@@ -54,7 +54,7 @@ Output:
 
 ## Install
 
-Install with [npm](https://npmjs.org/package/gulp-inline-css)
+Install with [npm](https://npmjs.org/package/gulp-htmltidy)
 
 ```
 npm install --save-dev gulp-htmltidy
@@ -89,7 +89,7 @@ gulp.task('default', function() {
 });
 ```
 
-Clean html like text according optional configuration [tidy options](http://w3c.github.io/tidy-html5/quickref.html).
+Clean html like text according optional configuration [tidy options](http://api.html-tidy.org/tidy/quickref_5.6.0.html).
 
 
 ## API
