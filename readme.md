@@ -1,7 +1,7 @@
 
 # [gulp](https://github.com/gulpjs/gulp)-htmltidy  
 
-[![Travis Build Status](http://img.shields.io/travis/ayhankuru/gulp-htmltidy.svg?style=flat-square)](https://travis-ci.org/ayhankuru/gulp-htmltidy) [![Circle Build Status](https://img.shields.io/circleci/project/ayhankuru/gulp-htmltidy.svg?style=flat-square)](https://circleci.com/gh/ayhankuru/gulp-htmltidy) [![Appveyor Build Status](https://img.shields.io/appveyor/ci/ayhankuru/gulp-htmltidy.svg?style=flat-square)](https://ci.appveyor.com/project/ayhankuru/gulp-htmltidy) [![Build Status](https://img.shields.io/david/ayhankuru/gulp-htmltidy.svg?style=flat-square)](https://david-dm.org/ayhankuru/gulp-htmltidy) [![io.js supported](https://img.shields.io/badge/io.js-supported-green.svg?style=flat-square)](https://iojs.org)
+[![Travis Build Status](http://img.shields.io/travis/c0b41/gulp-htmltidy.svg?style=flat-square)](https://travis-ci.org/c0b41/gulp-htmltidy) [![Circle Build Status](https://img.shields.io/circleci/project/c0b41/gulp-htmltidy.svg?style=flat-square)](https://circleci.com/gh/c0b41/gulp-htmltidy) [![Appveyor Build Status](https://img.shields.io/appveyor/ci/c0b41/gulp-htmltidy.svg?style=flat-square)](https://ci.appveyor.com/project/c0b41/gulp-htmltidy) [![Build Status](https://img.shields.io/david/c0b41/gulp-htmltidy.svg?style=flat-square)](https://david-dm.org/c0b41/gulp-htmltidy) [![io.js supported](https://img.shields.io/badge/io.js-supported-green.svg?style=flat-square)](https://iojs.org)
 
 
 
@@ -9,7 +9,7 @@
 
 > Using HTML Tidy, developers can programatically clean up and fix poorly-written HTML pages. Another use is to convert HTML to XHTML or XML. These files can then be easily processed using the tools in the traditional XML chain, such as XSL transforms.
 
-Uses the [htmltidy2](https://github.com/ayhankuru/htmltidy2) library.
+Uses the [htmltidy2](https://github.com/c0b41/htmltidy2) library.
 
 ## How It Works
 `/path/to/file.html`:
